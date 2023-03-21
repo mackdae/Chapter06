@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{50B250C9-F0CD-4382-BEDD-25C73AB79B0E}</ProjectGuid>
+    <ProjectGuid>{E84D1727-6FA1-4D07-BE98-6DC21B6E736B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>p188_Method</RootNamespace>
-    <AssemblyName>p188_Method</AssemblyName>
+    <RootNamespace>p191_Return</RootNamespace>
+    <AssemblyName>p191_Return</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

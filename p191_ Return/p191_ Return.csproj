@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{50B250C9-F0CD-4382-BEDD-25C73AB79B0E}</ProjectGuid>
+    <ProjectGuid>{3F2E0A63-468D-45C9-9E7C-3C7A4249A0C8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>p188_Method</RootNamespace>
-    <AssemblyName>p188_Method</AssemblyName>
+    <RootNamespace>p191__Return</RootNamespace>
+    <AssemblyName>p191__Return</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainApp.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
