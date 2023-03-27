@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3F2E0A63-468D-45C9-9E7C-3C7A4249A0C8}</ProjectGuid>
+    <ProjectGuid>{2E648BE3-113D-4AB0-85A9-943FE44AD745}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>p191__Return</RootNamespace>
-    <AssemblyName>p191__Return</AssemblyName>
+    <RootNamespace>p202_UsingOut</RootNamespace>
+    <AssemblyName>p202_UsingOut</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="MainApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

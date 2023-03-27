@@ -13,7 +13,7 @@ namespace p188_Method
     // int phone_number 스네이크 표기법 Phone_Number
     // 변수는 소문자로 시작, 메소드와 클래스는 대문자로 시작
 
-    // 객체지향 프로그래밍에 언어는 코드 내의 모든 것을 객체(오브젝트)로 표현
+    // 객체지향 프로그래밍 언어는 코드 내의 모든 것을 객체(오브젝트)로 표현
     // 각 객체는 자신만의 속성(데이터= 변수)과 기능(메소드)을 갖고 있는데,
     // 클래스가 바로 이 객체를 위한 청사진(설계도)을 제공합니다.
 
@@ -26,18 +26,14 @@ namespace p188_Method
     class Calculator
     {
         public static int Plus(int a, int b)
-        {
-            return a + b;
-        }
+        {   return a + b;   }
         public int Minus(int a, int b)
-        {
-            return a - b;
-        }
+        {   return a - b;   }
+        // static 한정자
+        // 메소드나 필드(전역변수)가 클래스의 인스턴스가 아닌 클래스 자체에 소속되도록 지정하는 한정자
+        // static을 쓰지 않으면 Calculator의 인스턴스를 만들어서 메소드를 호출
     }
-    // static 한정자
-    // 메소드나 필드(전역변수)가 클래스의 인스턴스가 아닌 클래스 자체에 소속되도록 지정하는 한정자
-    // static을 쓰지 않으면 Calculator의 인스턴스를 만들어서 메소드를 호출
-    class MainApp
+        class MainApp
     {
         public static void Main() // void 반환이 없는 메소드의 반환형식 자리에 넣음
         {
