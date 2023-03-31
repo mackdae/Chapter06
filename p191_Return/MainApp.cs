@@ -42,7 +42,7 @@ namespace p191_Return
                 Console.Write(Fibonacci(i) + ",");
             Console.WriteLine();
 
-            //피보나치수열 다른방법 ref
+            //피보나치수열 다른방법
             int n = 10; //출력할 피보나치수열 길이
             int a = 0; //1항
             int b = 1; //2항
