@@ -6,7 +6,7 @@ namespace p207_UsingParams
     {
         // 6.8 가변 개수의 인수
         // 개수가 유연하게 변할 수 있는 인수
-        //params 키워드와 배열로 선언
+        // params 키워드와 배열로 선언
         int SumA(params int[] args)
         {
             int sum = 0;

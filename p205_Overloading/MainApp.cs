@@ -6,6 +6,7 @@ namespace p205_Overloading
     {
         // 6.7 메소드 오버로딩: 과적하다
         // 하나의 메소드 이름에 여러 개의 구현을 올림
+        // 실행할 메소드를 찾는 작업은 컴파일 타임에 이루어짐 성능저하 없음
 
         static int Plus(int a, int b)
         {
